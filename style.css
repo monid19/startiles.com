@@ -210,7 +210,7 @@ canvas{
     height: 100%;
   }
 
-  .win-screen.--show {
+  .win-screen.show {
     display: flex;
   }
   

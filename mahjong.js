@@ -181,8 +181,8 @@ function mousePressed() {
 }
 
 function gameOver(){
-  if (tiles.length === 0) {
-    document.getElementById("win-screen").classList.add("--show");
+    if (tiles.length === 0) {
+    document.getElementById("win-screen").classList.add("show");
 }
 }
 
