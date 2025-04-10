@@ -198,6 +198,7 @@ canvas{
     left: 200px;
     bottom: 300px;
 }
+
 .win-screen {
     display: none;
     justify-content: center;
@@ -207,9 +208,8 @@ canvas{
     left: 0;
     width: 100%;
     height: 100%;
-    
   }
-  
+
   .win-screen.--show {
     display: flex;
   }

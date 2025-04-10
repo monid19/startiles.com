@@ -162,7 +162,7 @@ function mousePressed() {
             tiles = tiles.filter(t => !selectedTiles.includes(t));
 
             gameOver();
-            
+
           } else {
             // Tiles don't match, show error highlight
             errorTiles = [...selectedTiles];
@@ -182,7 +182,6 @@ function mousePressed() {
 
 function gameOver(){
   if (tiles.length === 0) {
-    
     document.getElementById("win-screen").classList.add("--show");
 }
 }
